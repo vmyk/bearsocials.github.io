@@ -1,0 +1,70 @@
+body {
+    background-color: #4879b8;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+    margin: 0;
+}
+
+.cloud1 {
+    width: 10%;
+    display: block;
+    margin: 0px auto;
+    pointer-events: none; /* Prevents dragging for .cloud1 image */
+}
+
+.cloud2 {
+    width: 10%;
+    position: absolute;
+    top: 48%;
+    left: 49%;
+    transform: translate(-30%, -50%);
+    pointer-events: none; /* Prevents dragging for .cloud2 image */
+}
+
+.page-title {
+    color: white;
+    position: absolute;
+    top: 250px;
+    left: 51%;
+    transform: translateX(-50%);
+    font-size: 32px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 280px;
+    margin-left: 55px;
+}
+
+.social-icons a {
+    margin-right: 20px;
+    color: white;
+    font-size: 35px;
+}
+
+.social-icons a img {
+    width: 35px;
+    height: 35px;
+    pointer-events: none; /* Prevents dragging for social media icons */
+}
+
+.social-icons .crowdin-logo img {
+    width: 35px;
+    height: 35px;
+    pointer-events: none; /* Prevents dragging for crowdin logo */
+}
+
+#clock {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    position: absolute;
+    bottom: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+}
